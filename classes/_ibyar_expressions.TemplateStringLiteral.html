@@ -66,7 +66,7 @@
 <h3 class="tsd-anchor-link"><span>string</span><a href="#string" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">string<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/ibyar/aurora/blob/17e31dd/src/expressions/v8/stream.ts#L34">expressions/v8/stream.ts:34</a></li></ul></aside></section></section>
+<li>Defined in <a href="https://github.com/ibyar/aurora/blob/543b42b/src/expressions/v8/stream.ts#L34">expressions/v8/stream.ts:34</a></li></ul></aside></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a id="dependency" class="tsd-anchor"></a>
@@ -76,7 +76,7 @@
 <ul class="tsd-descriptions">
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>get all dependencies form an expression node</p>
-<p>tha return from this method, is represent an answer for what identifiers this expression depends-on.</p>
+<p>the return from this method, is represent an answer for what identifiers this expression depends-on.</p>
 <p>ex:</p>
 <pre><code class="language-js"><span class="hl-0">x</span><span class="hl-1"> + </span><span class="hl-0">y</span><span class="hl-1">;</span>
 </code></pre>
@@ -135,7 +135,7 @@
 <ul class="tsd-descriptions">
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>get all the events form this expression</p>
-<p>tha return from this method, is represent an answer for what is this expression depends-on as identifier name</p>
+<p>the return from this method, is represent an answer for what is this expression depends-on as identifier name</p>
 <p>ex: </p>
 <pre><code class="language-js"><span class="hl-0">x</span><span class="hl-1"> + </span><span class="hl-0">y</span><span class="hl-1">;</span>
 </code></pre>
@@ -210,7 +210,7 @@ with all necessary implementation to execute the code</p>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a id="shareVariables" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>share<wbr/>Variables</span><a href="#shareVariables" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-<li class="tsd-signature" id="shareVariables.shareVariables-1">share<wbr/>Variables<span class="tsd-signature-symbol">(</span>scopeList<span class="tsd-signature-symbol">: </span><a href="_ibyar_expressions.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_expressions.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li></ul>
+<li class="tsd-signature" id="shareVariables.shareVariables-1">share<wbr/>Variables<span class="tsd-signature-symbol">(</span>scopeList<span class="tsd-signature-symbol">: </span><a href="_ibyar_expressions.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_expressions.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li></ul>
 <ul class="tsd-descriptions">
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>pass scope list from outer function to inner function,</p>
@@ -221,7 +221,7 @@ with all necessary implementation to execute the code</p>
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5>scopeList: <a href="_ibyar_expressions.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_expressions.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5>
+<h5>scopeList: <a href="_ibyar_expressions.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_expressions.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5>
 <div class="tsd-comment tsd-typography"><p>all outer function scopes given to the inner function,
 this solution ignore the fact that some inner function has no need to
 get shared variables, as its implementation never say that</p>
@@ -272,6 +272,7 @@ get shared variables, as its implementation never say that</p>
 <li class="current"><a href="../modules.html">Ibyar/<wbr/>Aurora</a>
 <ul>
 <li class="tsd-kind-module"><a href="../modules/_ibyar_aurora.html">@ibyar/aurora</a></li>
+<li class="tsd-kind-module"><a href="../modules/_ibyar_cli.html">@ibyar/cli</a></li>
 <li class="tsd-kind-module"><a href="../modules/_ibyar_core.html">@ibyar/core</a></li>
 <li class="tsd-kind-module"><a href="../modules/_ibyar_directives.html">@ibyar/directives</a></li>
 <li class="tsd-kind-module"><a href="../modules/_ibyar_elements.html">@ibyar/elements</a></li>

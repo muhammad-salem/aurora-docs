@@ -39,6 +39,7 @@
 <h3 class="tsd-index-heading">Properties</h3>
 <div class="tsd-index-list"><a href="_ibyar_aurora.Stack.html#awaitPromise" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="#FF984D" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12" id="icon-1024-path"></rect><path d="M9.354 16V7.24H12.174C12.99 7.24 13.638 7.476 14.118 7.948C14.606 8.412 14.85 9.036 14.85 9.82C14.85 10.604 14.606 11.232 14.118 11.704C13.638 12.168 12.99 12.4 12.174 12.4H10.434V16H9.354ZM10.434 11.428H12.174C12.646 11.428 13.022 11.284 13.302 10.996C13.59 10.7 13.734 10.308 13.734 9.82C13.734 9.324 13.59 8.932 13.302 8.644C13.022 8.356 12.646 8.212 12.174 8.212H10.434V11.428Z" fill="var(--color-text)" id="icon-1024-text"></path></svg><span>await<wbr/>Promise</span></a>
 <a href="_ibyar_aurora.Stack.html#forAwaitAsyncIterable" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>for<wbr/>Await<wbr/>Async<wbr/>Iterable</span></a>
+<a href="_ibyar_aurora.Stack.html#getReactiveScope" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>get<wbr/>Reactive<wbr/>Scope</span></a>
 <a href="_ibyar_aurora.Stack.html#getReactiveScopeControls" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>get<wbr/>Reactive<wbr/>Scope<wbr/>Controls</span></a>
 <a href="_ibyar_aurora.Stack.html#initModuleContext" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>init<wbr/>Module<wbr/>Context</span></a>
 <a href="_ibyar_aurora.Stack.html#moduleScope" class="tsd-index-link tsd-kind-property tsd-parent-kind-class tsd-is-protected"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>module<wbr/>Scope</span></a>
@@ -54,6 +55,7 @@
 <a href="_ibyar_aurora.Stack.html#copyStack" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>copy<wbr/>Stack</span></a>
 <a href="_ibyar_aurora.Stack.html#declareVariable" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>declare<wbr/>Variable</span></a>
 <a href="_ibyar_aurora.Stack.html#detach" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>detach</span></a>
+<a href="_ibyar_aurora.Stack.html#detectChanges" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>detect<wbr/>Changes</span></a>
 <a href="_ibyar_aurora.Stack.html#findScope" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>find<wbr/>Scope</span></a>
 <a href="_ibyar_aurora.Stack.html#get" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>get</span></a>
 <a href="_ibyar_aurora.Stack.html#getModule" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>get<wbr/>Module</span></a>
@@ -81,10 +83,10 @@
 <h3 class="tsd-anchor-link"><span>constructor</span><a href="#constructor" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" id="icon-anchor-a"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" id="icon-anchor-b"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" id="icon-anchor-c"></path></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
 <li class="tsd-signature" id="constructor.new_Stack">new <wbr/>Stack<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li>
-<li class="tsd-signature" id="constructor.new_Stack-1">new <wbr/>Stack<span class="tsd-signature-symbol">(</span>globalScope<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li>
-<li class="tsd-signature" id="constructor.new_Stack-2">new <wbr/>Stack<span class="tsd-signature-symbol">(</span>globalScope<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span>, resolver<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.ModuleScopeResolver.html" class="tsd-signature-type" data-tsd-kind="Class">ModuleScopeResolver</a>, moduleSource<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li>
-<li class="tsd-signature" id="constructor.new_Stack-3">new <wbr/>Stack<span class="tsd-signature-symbol">(</span>stack<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li>
-<li class="tsd-signature" id="constructor.new_Stack-4">new <wbr/>Stack<span class="tsd-signature-symbol">(</span>stack<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span>, resolver<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.ModuleScopeResolver.html" class="tsd-signature-type" data-tsd-kind="Class">ModuleScopeResolver</a>, moduleSource<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li></ul>
+<li class="tsd-signature" id="constructor.new_Stack-1">new <wbr/>Stack<span class="tsd-signature-symbol">(</span>globalScope<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li>
+<li class="tsd-signature" id="constructor.new_Stack-2">new <wbr/>Stack<span class="tsd-signature-symbol">(</span>globalScope<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span>, resolver<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.ModuleScopeResolver.html" class="tsd-signature-type" data-tsd-kind="Class">ModuleScopeResolver</a>, moduleSource<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li>
+<li class="tsd-signature" id="constructor.new_Stack-3">new <wbr/>Stack<span class="tsd-signature-symbol">(</span>stack<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li>
+<li class="tsd-signature" id="constructor.new_Stack-4">new <wbr/>Stack<span class="tsd-signature-symbol">(</span>stack<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span>, resolver<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.ModuleScopeResolver.html" class="tsd-signature-type" data-tsd-kind="Class">ModuleScopeResolver</a>, moduleSource<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li></ul>
 <ul class="tsd-descriptions">
 <li class="tsd-description">
 <h4 class="tsd-returns-title">Returns <a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></h4></li>
@@ -93,14 +95,14 @@
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5>globalScope: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span></h5></li></ul></div>
+<h5>globalScope: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></h4></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5>globalScope: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span></h5></li>
+<h5>globalScope: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span></h5></li>
 <li>
 <h5>resolver: <a href="_ibyar_aurora.ModuleScopeResolver.html" class="tsd-signature-type" data-tsd-kind="Class">ModuleScopeResolver</a></h5></li>
 <li>
@@ -111,14 +113,14 @@
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5>stack: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5></li></ul></div>
+<h5>stack: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></h4></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5>stack: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5></li>
+<h5>stack: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5></li>
 <li>
 <h5>resolver: <a href="_ibyar_aurora.ModuleScopeResolver.html" class="tsd-signature-type" data-tsd-kind="Class">ModuleScopeResolver</a></h5></li>
 <li>
@@ -142,11 +144,16 @@
 <ul>
 <li>Defined in ../packages/expressions/scope/stack.d.ts:20</li>
 <li>Defined in ../packages/expressions/scope/stack.d.ts:114</li></ul></aside></section>
+<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="getReactiveScope" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>get<wbr/>Reactive<wbr/>Scope</span><a href="#getReactiveScope" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<div class="tsd-signature">get<wbr/>Reactive<wbr/>Scope<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in ../packages/expressions/scope/stack.d.ts:128</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="getReactiveScopeControls" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>get<wbr/>Reactive<wbr/>Scope<wbr/>Controls</span><a href="#getReactiveScopeControls" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">get<wbr/>Reactive<wbr/>Scope<wbr/>Controls<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in ../packages/expressions/scope/stack.d.ts:126</li></ul></aside></section>
+<li>Defined in ../packages/expressions/scope/stack.d.ts:127</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="initModuleContext" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>init<wbr/>Module<wbr/>Context</span><a href="#initModuleContext" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">init<wbr/>Module<wbr/>Context<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div><aside class="tsd-sources">
@@ -191,7 +198,7 @@
 <h4 class="tsd-type-parameters-title">Type Parameters</h4>
 <ul class="tsd-type-parameters">
 <li>
-<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a></h4></li></ul></div>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a></h4></li></ul></div>
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
@@ -210,7 +217,7 @@
 <h4 class="tsd-type-parameters-title">Type Parameters</h4>
 <ul class="tsd-type-parameters">
 <li>
-<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a></h4></li></ul></div>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a></h4></li></ul></div>
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
@@ -256,6 +263,13 @@
 without reflect changes on view until reattached again.</p>
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="detectChanges" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>detect<wbr/>Changes</span><a href="#detectChanges" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+<li class="tsd-signature" id="detectChanges.detectChanges-1">detect<wbr/>Changes<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li></ul>
+<ul class="tsd-descriptions">
+<li class="tsd-description">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="findScope" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>find<wbr/>Scope</span><a href="#findScope" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -271,7 +285,7 @@ if not found will return the stack local scop as a default value</p>
 <h4 class="tsd-type-parameters-title">Type Parameters</h4>
 <ul class="tsd-type-parameters">
 <li>
-<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a></h4></li></ul></div>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a></h4></li></ul></div>
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
@@ -348,7 +362,7 @@ if not found will return the stack local scop as a default value</p>
 <h4 class="tsd-type-parameters-title">Type Parameters</h4>
 <ul class="tsd-type-parameters">
 <li>
-<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a></h4></li></ul></div>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a></h4></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span></h4></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="onDestroy" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>on<wbr/>Destroy</span><a href="#onDestroy" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
@@ -381,7 +395,7 @@ if not found will return the stack local scop as a default value</p>
 <h4 class="tsd-type-parameters-title">Type Parameters</h4>
 <ul class="tsd-type-parameters">
 <li>
-<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a></h4></li></ul></div>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a></h4></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span></h4></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="pushBlockScope" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>push<wbr/>Block<wbr/>Scope</span><a href="#pushBlockScope" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
@@ -393,7 +407,7 @@ if not found will return the stack local scop as a default value</p>
 <h4 class="tsd-type-parameters-title">Type Parameters</h4>
 <ul class="tsd-type-parameters">
 <li>
-<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a></h4></li></ul></div>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a></h4></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span></h4></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="pushBlockScopeFor" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>push<wbr/>Block<wbr/>Scope<wbr/>For</span><a href="#pushBlockScopeFor" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
@@ -405,7 +419,7 @@ if not found will return the stack local scop as a default value</p>
 <h4 class="tsd-type-parameters-title">Type Parameters</h4>
 <ul class="tsd-type-parameters">
 <li>
-<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a></h4></li></ul></div>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a></h4></li></ul></div>
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
@@ -422,7 +436,7 @@ if not found will return the stack local scop as a default value</p>
 <h4 class="tsd-type-parameters-title">Type Parameters</h4>
 <ul class="tsd-type-parameters">
 <li>
-<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a></h4></li></ul></div>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a></h4></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_ibyar_aurora.ReactiveScope.html" class="tsd-signature-type" data-tsd-kind="Class">ReactiveScope</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span></h4></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="pushReactiveScopeFor" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>push<wbr/>Reactive<wbr/>Scope<wbr/>For</span><a href="#pushReactiveScopeFor" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
@@ -434,7 +448,7 @@ if not found will return the stack local scop as a default value</p>
 <h4 class="tsd-type-parameters-title">Type Parameters</h4>
 <ul class="tsd-type-parameters">
 <li>
-<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a></h4></li></ul></div>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a></h4></li></ul></div>
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
@@ -451,7 +465,7 @@ if not found will return the stack local scop as a default value</p>
 <h4 class="tsd-type-parameters-title">Type Parameters</h4>
 <ul class="tsd-type-parameters">
 <li>
-<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a></h4></li></ul></div>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a></h4></li></ul></div>
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
@@ -477,7 +491,7 @@ if not found will return the stack local scop as a default value</p>
 <h4 class="tsd-type-parameters-title">Type Parameters</h4>
 <ul class="tsd-type-parameters">
 <li>
-<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a></h4></li></ul></div>
+<h4>T<span class="tsd-signature-symbol"> extends </span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a></h4></li></ul></div>
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
@@ -518,31 +532,31 @@ else define it in the first scope &#39;local scope&#39;</p>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="for" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>for</span><a href="#for" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-<li class="tsd-signature" id="for.for-1">for<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>contexts<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li></ul>
+<li class="tsd-signature" id="for.for-1">for<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>contexts<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li></ul>
 <ul class="tsd-descriptions">
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span>contexts: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5></li></ul></div>
+<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span>contexts: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></h4></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="forScopes" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>for<wbr/>Scopes</span><a href="#forScopes" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-<li class="tsd-signature" id="forScopes.forScopes-1">for<wbr/>Scopes<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>scopes<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li></ul>
+<li class="tsd-signature" id="forScopes.forScopes-1">for<wbr/>Scopes<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>scopes<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li></ul>
 <ul class="tsd-descriptions">
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span>scopes: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5></li></ul></div>
+<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span>scopes: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></h4></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="moduleScope-1" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>module<wbr/>Scope</span><a href="#moduleScope-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-<li class="tsd-signature" id="moduleScope-1.moduleScope-2">module<wbr/>Scope<span class="tsd-signature-symbol">(</span>resolver<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.ModuleScopeResolver.html" class="tsd-signature-type" data-tsd-kind="Class">ModuleScopeResolver</a>, moduleSource<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, <span class="tsd-signature-symbol">...</span>globalScopes<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li></ul>
+<li class="tsd-signature" id="moduleScope-1.moduleScope-2">module<wbr/>Scope<span class="tsd-signature-symbol">(</span>resolver<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.ModuleScopeResolver.html" class="tsd-signature-type" data-tsd-kind="Class">ModuleScopeResolver</a>, moduleSource<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, <span class="tsd-signature-symbol">...</span>globalScopes<span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></li></ul>
 <ul class="tsd-descriptions">
 <li class="tsd-description">
 <div class="tsd-parameters">
@@ -553,7 +567,7 @@ else define it in the first scope &#39;local scope&#39;</p>
 <li>
 <h5>moduleSource: <span class="tsd-signature-type">string</span></h5></li>
 <li>
-<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span>globalScopes: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.ScopeContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">ScopeContext</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5></li></ul></div>
+<h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span>globalScopes: <a href="_ibyar_aurora.Scope.html" class="tsd-signature-type" data-tsd-kind="Class">Scope</a><span class="tsd-signature-symbol">&lt;</span><a href="../types/_ibyar_aurora.Context.html" class="tsd-signature-type" data-tsd-kind="Type alias">Context</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_ibyar_aurora.Stack.html" class="tsd-signature-type" data-tsd-kind="Class">Stack</a></h4></li></ul></section></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
@@ -577,6 +591,7 @@ else define it in the first scope &#39;local scope&#39;</p>
 <li class="current"><a href="../modules.html">Ibyar/<wbr/>Aurora</a>
 <ul>
 <li class="current tsd-kind-module"><a href="../modules/_ibyar_aurora.html">@ibyar/aurora</a></li>
+<li class="tsd-kind-module"><a href="../modules/_ibyar_cli.html">@ibyar/cli</a></li>
 <li class="tsd-kind-module"><a href="../modules/_ibyar_core.html">@ibyar/core</a></li>
 <li class="tsd-kind-module"><a href="../modules/_ibyar_directives.html">@ibyar/directives</a></li>
 <li class="tsd-kind-module"><a href="../modules/_ibyar_elements.html">@ibyar/elements</a></li>
@@ -591,6 +606,7 @@ else define it in the first scope &#39;local scope&#39;</p>
 <li class="tsd-kind-constructor tsd-parent-kind-class"><a href="_ibyar_aurora.Stack.html#constructor" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-512-path"></use><use href="#icon-512-text"></use></svg>constructor</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="_ibyar_aurora.Stack.html#awaitPromise" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>await<wbr/>Promise</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="_ibyar_aurora.Stack.html#forAwaitAsyncIterable" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>for<wbr/>Await<wbr/>Async<wbr/>Iterable</a></li>
+<li class="tsd-kind-property tsd-parent-kind-class"><a href="_ibyar_aurora.Stack.html#getReactiveScope" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>get<wbr/>Reactive<wbr/>Scope</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="_ibyar_aurora.Stack.html#getReactiveScopeControls" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>get<wbr/>Reactive<wbr/>Scope<wbr/>Controls</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="_ibyar_aurora.Stack.html#initModuleContext" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>init<wbr/>Module<wbr/>Context</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="_ibyar_aurora.Stack.html#moduleScope" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>module<wbr/>Scope</a></li>
@@ -603,6 +619,7 @@ else define it in the first scope &#39;local scope&#39;</p>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="_ibyar_aurora.Stack.html#copyStack" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>copy<wbr/>Stack</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="_ibyar_aurora.Stack.html#declareVariable" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>declare<wbr/>Variable</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="_ibyar_aurora.Stack.html#detach" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>detach</a></li>
+<li class="tsd-kind-method tsd-parent-kind-class"><a href="_ibyar_aurora.Stack.html#detectChanges" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>detect<wbr/>Changes</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="_ibyar_aurora.Stack.html#findScope" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>find<wbr/>Scope</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="_ibyar_aurora.Stack.html#get" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>get</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="_ibyar_aurora.Stack.html#getModule" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>get<wbr/>Module</a></li>
