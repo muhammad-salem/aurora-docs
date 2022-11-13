@@ -24,7 +24,7 @@
 <ul class="tsd-hierarchy">
 <li><span class="target">ValueControl</span></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/ibyar/aurora/blob/3d71fb6/src/core/component/custom-element.ts#L133">core/component/custom-element.ts:133</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/ibyar/aurora/blob/cad2ceb/src/core/component/custom-element.ts#L133">core/component/custom-element.ts:133</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -45,10 +45,10 @@
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>This method is called when new <code>ValueControl</code> assigned to the form associated element.</p>
 <p>When implementing the registerOnChange method in your own value accessor, save the given function so your class calls it at the appropriate time.</p>
-<pre><code class="language-ts"><span class="hl-3">registerOnChange</span><span class="hl-1">(</span><span class="hl-0">fn</span><span class="hl-1">: (</span><span class="hl-0">_</span><span class="hl-1">: </span><span class="hl-9">any</span><span class="hl-1">) </span><span class="hl-2">=&gt;</span><span class="hl-1"> </span><span class="hl-2">void</span><span class="hl-1">): </span><span class="hl-2">void</span><span class="hl-1"> {</span><br/><span class="hl-1">    </span><span class="hl-2">this</span><span class="hl-1">.</span><span class="hl-0">_onChange</span><span class="hl-1"> = </span><span class="hl-0">fn</span><span class="hl-1">;</span><br/><span class="hl-1">}</span>
+<pre><code class="language-ts"><span class="hl-4">registerOnChange</span><span class="hl-1">(</span><span class="hl-0">fn</span><span class="hl-1">: (</span><span class="hl-0">_</span><span class="hl-1">: </span><span class="hl-8">any</span><span class="hl-1">) </span><span class="hl-2">=&gt;</span><span class="hl-1"> </span><span class="hl-2">void</span><span class="hl-1">): </span><span class="hl-2">void</span><span class="hl-1"> {</span><br/><span class="hl-1">    </span><span class="hl-2">this</span><span class="hl-1">.</span><span class="hl-0">_onChange</span><span class="hl-1"> = </span><span class="hl-0">fn</span><span class="hl-1">;</span><br/><span class="hl-1">}</span>
 </code></pre>
 <p>When the value changes in the UI, call the registered function to allow the forms API to update itself:</p>
-<pre><code class="language-ts"><br/><span class="hl-3">onChange</span><span class="hl-1">(</span><span class="hl-0">event</span><span class="hl-1">: </span><span class="hl-0">Event</span><span class="hl-1">){</span><br/><span class="hl-1">    </span><br/><span class="hl-1">}</span><br/>
+<pre><code class="language-ts"><br/><span class="hl-4">onChange</span><span class="hl-1">(</span><span class="hl-0">event</span><span class="hl-1">: </span><span class="hl-0">Event</span><span class="hl-1">){</span><br/><span class="hl-1">    </span><br/><span class="hl-1">}</span><br/>
 </code></pre>
 </div>
 <div class="tsd-parameters">
@@ -71,7 +71,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/ibyar/aurora/blob/3d71fb6/src/core/component/custom-element.ts#L181">core/component/custom-element.ts:181</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/ibyar/aurora/blob/cad2ceb/src/core/component/custom-element.ts#L181">core/component/custom-element.ts:181</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface"><a id="setDisabledState" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>set<wbr/>Disabled<wbr/>State</span><a href="#setDisabledState" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
@@ -86,7 +86,7 @@
 <h5>isDisabled: <span class="tsd-signature-type">boolean</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/ibyar/aurora/blob/3d71fb6/src/core/component/custom-element.ts#L187">core/component/custom-element.ts:187</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/ibyar/aurora/blob/cad2ceb/src/core/component/custom-element.ts#L187">core/component/custom-element.ts:187</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface"><a id="writeValue" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>write<wbr/>Value</span><a href="#writeValue" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
@@ -106,7 +106,7 @@
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> value<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span></h5></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/ibyar/aurora/blob/3d71fb6/src/core/component/custom-element.ts#L139">core/component/custom-element.ts:139</a></li></ul></aside></li>
+<li>Defined in <a href="https://github.com/ibyar/aurora/blob/cad2ceb/src/core/component/custom-element.ts#L139">core/component/custom-element.ts:139</a></li></ul></aside></li>
 <li class="tsd-signature tsd-anchor-link" id="writeValue.writeValue-2">write<wbr/>Value<span class="tsd-signature-symbol">(</span>opt<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span>mode<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">&quot;autocomplete&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;restore&quot;</span><span class="tsd-signature-symbol">; </span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#writeValue.writeValue-2" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>When the browser restores the state of the element (for example, after a navigation, or when the browser restarts).
@@ -126,7 +126,7 @@
 <h5>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span></h5></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/ibyar/aurora/blob/3d71fb6/src/core/component/custom-element.ts#L152">core/component/custom-element.ts:152</a></li></ul></aside></li>
+<li>Defined in <a href="https://github.com/ibyar/aurora/blob/cad2ceb/src/core/component/custom-element.ts#L152">core/component/custom-element.ts:152</a></li></ul></aside></li>
 <li class="tsd-signature tsd-anchor-link" id="writeValue.writeValue-3">write<wbr/>Value<span class="tsd-signature-symbol">(</span>opt<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span>mode<span class="tsd-signature-symbol">?: </span><a href="../types/_ibyar_core.WriteValueMode.html" class="tsd-signature-type" data-tsd-kind="Type alias">WriteValueMode</a><span class="tsd-signature-symbol">; </span>value<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#writeValue.writeValue-3" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
@@ -141,7 +141,7 @@
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> value<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span></h5></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/ibyar/aurora/blob/3d71fb6/src/core/component/custom-element.ts#L154">core/component/custom-element.ts:154</a></li></ul></aside></li>
+<li>Defined in <a href="https://github.com/ibyar/aurora/blob/cad2ceb/src/core/component/custom-element.ts#L154">core/component/custom-element.ts:154</a></li></ul></aside></li>
 <li class="tsd-signature tsd-anchor-link" id="writeValue.writeValue-4">write<wbr/>Value<span class="tsd-signature-symbol">(</span>opt<span class="tsd-signature-symbol">: </span><a href="../types/_ibyar_core.WriteValueOptions.html" class="tsd-signature-type" data-tsd-kind="Type alias">WriteValueOptions</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#writeValue.writeValue-4" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
@@ -151,7 +151,7 @@
 <h5>opt: <a href="../types/_ibyar_core.WriteValueOptions.html" class="tsd-signature-type" data-tsd-kind="Type alias">WriteValueOptions</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">&gt;</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/ibyar/aurora/blob/3d71fb6/src/core/component/custom-element.ts#L156">core/component/custom-element.ts:156</a></li></ul></aside></li></ul></section></section></div>
+<li>Defined in <a href="https://github.com/ibyar/aurora/blob/cad2ceb/src/core/component/custom-element.ts#L156">core/component/custom-element.ts:156</a></li></ul></aside></li></ul></section></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
 <details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
@@ -173,17 +173,17 @@
 <ul>
 <li class="current"><a href="../modules.html">Ibyar/<wbr/>Aurora</a>
 <ul>
-<li class="tsd-kind-module"><a href="../modules/_ibyar_aurora.html">@ibyar/aurora -<wbr/> v0.8.2-<wbr/>dev.20221008</a></li>
-<li class="tsd-kind-module"><a href="../modules/_ibyar_cli.html">@ibyar/cli -<wbr/> v0.8.2-<wbr/>dev.20221008</a></li>
-<li class="current tsd-kind-module"><a href="../modules/_ibyar_core.html">@ibyar/core -<wbr/> v0.8.2-<wbr/>dev.20221008</a></li>
-<li class="tsd-kind-module"><a href="../modules/_ibyar_directives.html">@ibyar/directives -<wbr/> v0.8.2-<wbr/>dev.20221008</a></li>
-<li class="tsd-kind-module"><a href="../modules/_ibyar_elements.html">@ibyar/elements -<wbr/> v0.8.2-<wbr/>dev.20221008</a></li>
-<li class="tsd-kind-module"><a href="../modules/_ibyar_expressions.html">@ibyar/expressions -<wbr/> v0.8.2-<wbr/>dev.20221008</a></li>
-<li class="tsd-kind-module"><a href="../modules/_ibyar_forms.html">@ibyar/forms -<wbr/> v0.8.2-<wbr/>dev.20221008</a></li>
-<li class="tsd-kind-module"><a href="../modules/_ibyar_hast.html">@ibyar/hast -<wbr/> v0.8.2-<wbr/>dev.20221008</a></li>
-<li class="tsd-kind-module"><a href="../modules/_ibyar_jsx.html">@ibyar/jsx -<wbr/> v0.8.2-<wbr/>dev.20221008</a></li>
-<li class="tsd-kind-module"><a href="../modules/_ibyar_pipes.html">@ibyar/pipes -<wbr/> v0.8.2-<wbr/>dev.20221008</a></li>
-<li class="tsd-kind-module"><a href="../modules/_ibyar_platform.html">@ibyar/platform -<wbr/> v0.8.2-<wbr/>dev.20221008</a></li></ul></li></ul></div></details></nav>
+<li class="tsd-kind-module"><a href="../modules/_ibyar_aurora.html">@ibyar/aurora -<wbr/> v0.8.3</a></li>
+<li class="tsd-kind-module"><a href="../modules/_ibyar_cli.html">@ibyar/cli -<wbr/> v0.8.3</a></li>
+<li class="current tsd-kind-module"><a href="../modules/_ibyar_core.html">@ibyar/core -<wbr/> v0.8.3</a></li>
+<li class="tsd-kind-module"><a href="../modules/_ibyar_directives.html">@ibyar/directives -<wbr/> v0.8.3</a></li>
+<li class="tsd-kind-module"><a href="../modules/_ibyar_elements.html">@ibyar/elements -<wbr/> v0.8.3</a></li>
+<li class="tsd-kind-module"><a href="../modules/_ibyar_expressions.html">@ibyar/expressions -<wbr/> v0.8.3</a></li>
+<li class="tsd-kind-module"><a href="../modules/_ibyar_forms.html">@ibyar/forms -<wbr/> v0.8.3</a></li>
+<li class="tsd-kind-module"><a href="../modules/_ibyar_hast.html">@ibyar/hast -<wbr/> v0.8.3</a></li>
+<li class="tsd-kind-module"><a href="../modules/_ibyar_jsx.html">@ibyar/jsx -<wbr/> v0.8.3</a></li>
+<li class="tsd-kind-module"><a href="../modules/_ibyar_pipes.html">@ibyar/pipes -<wbr/> v0.8.3</a></li>
+<li class="tsd-kind-module"><a href="../modules/_ibyar_platform.html">@ibyar/platform -<wbr/> v0.8.3</a></li></ul></li></ul></div></details></nav>
 <nav class="tsd-navigation secondary menu-sticky">
 <ul>
 <li class="current tsd-kind-interface tsd-parent-kind-module"><a href="_ibyar_core.ValueControl.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-interface)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6" id="icon-256-path"></rect><path d="M9.51 16V15.016H11.298V8.224H9.51V7.24H14.19V8.224H12.402V15.016H14.19V16H9.51Z" fill="var(--color-text)" id="icon-256-text"></path></svg><span>Value<wbr/>Control</span></a>
