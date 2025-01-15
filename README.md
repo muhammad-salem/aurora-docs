@@ -1,4 +1,4 @@
 # aurora-docs
 Ibyar Aurora API Reference
 
-# Version 1.2.2
+# Version 3.0.0
